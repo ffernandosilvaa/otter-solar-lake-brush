@@ -40,7 +40,6 @@ export const BENEFITS = [
   "Prompt Genie: um clique e o stack inteiro (identidade + pose + luz) é escrito pra você.",
   "8 Personagens com DNA travado + app vivo (favoritos e Planejador de 30 dias).",
   "Licença comercial + atualizações vitalícias. Pagamento único.",
-  "Guia com 8 regras e checklist pré-post — para não levar strike nem parecer amador.",
 ];
 
 export const STEPS = [
