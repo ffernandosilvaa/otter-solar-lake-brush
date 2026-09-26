@@ -91,11 +91,6 @@ export const COMPARE = [
   { label: "Realismo percebido", a: "IA óbvia · 15%", b: "~40%", c: "99%" },
   { label: "Mesmo rosto toda geração", a: false, b: "às vezes", c: true },
   { label: "Vídeo cinematográfico", a: false, b: false, c: true },
-  { label: "9 categorias prontas", a: false, b: false, c: true },
-  { label: "Resultado em ~60s", a: false, b: "sorte", c: true },
-  { label: "Genie + Planejador 30 dias", a: false, b: false, c: true },
-  { label: "Licença comercial vitalícia", a: false, b: false, c: true },
-  { label: "Garantia de 7 dias", a: false, b: false, c: true },
 ];
 
 export const REVIEWS = [
