@@ -111,7 +111,7 @@ export const REVIEWS = [
   {
     name: "Jon C.",
     role: "Agência one-person",
-    title: "O Genie vale o pack inteiro",
+    title: "O PromptLab vale o pack inteiro",
     text: "Vídeo cinematográfico pronto pra cliente. Entreguei em 40 minutos o que eu cobrava dois dias.",
     helpful: 25,
   },
