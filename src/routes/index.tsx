@@ -11,7 +11,6 @@ import { Pillars } from "@/components/landing/pillars";
 import { Problem } from "@/components/landing/problem";
 import { Proof } from "@/components/landing/proof";
 import { Results } from "@/components/landing/results";
-import { Roi } from "@/components/landing/roi";
 import { Solution } from "@/components/landing/solution";
 import { Steps } from "@/components/landing/steps";
 import { StickyCta } from "@/components/landing/sticky-cta";
@@ -32,7 +31,6 @@ function Home() {
       <Pillars />
       <Compare />
       <ForYou />
-      <Roi />
       <Proof />
       <Offer />
       <Faq />
