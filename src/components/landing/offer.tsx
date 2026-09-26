@@ -7,10 +7,9 @@ import { formatCountdown, useCountdown } from "./use-countdown";
 import { useOffer } from "@/store/offer";
 
 const INCLUDED = [
-  "400 prompts testados, organizados em 9 categorias",
+  "300 prompts testados, e organizados",
   "8 Personagens com DNA de rosto travado",
-  "Prompt Genie — stack completo em 1 clique",
-  "Planejador de 30 dias + favoritos (app, não PDF)",
+  "PromptLab — stack completo em 1 clique",
   "Guia: 8 regras + checklist pré-publicação",
   "3 bônus + 2 presentes de lançamento",
   "Licença comercial e atualizações vitalícias",
