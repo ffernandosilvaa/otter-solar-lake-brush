@@ -1,6 +1,6 @@
 export const PRICE = {
-  full: 797,
-  now: 97,
+  full: 166,58,
+  now: 19,99,
   offPct: 88,
   seats: 47,
 };
@@ -252,11 +252,11 @@ export const TICKER = [
   "Ana · RJ comprou há 7 min",
   "Pedro · POA comprou há 12 min",
   "Marina · DF comprou há 4 min",
-  "João · SSA comprou há 9 min",
-  "Beatriz · CTB comprou há 2 min",
-  "Rafael · REC comprou há 6 min",
-  "Sofia · FLN comprou há 11 min",
-  "Diego · GYN comprou há 5 min",
+  "João · MA comprou há 9 min",
+  "Beatriz · MA comprou há 2 min",
+  "Rafael · MA comprou há 6 min",
+  "Sofia · MA comprou há 11 min",
+  "Diego · MA comprou há 5 min",
 ];
 
 export const MESSAGES = [
