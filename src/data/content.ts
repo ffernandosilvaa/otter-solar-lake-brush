@@ -120,7 +120,7 @@ export const REVIEWS = [
 export const FAQS = [
   {
     q: "Funciona em IA gratuita?",
-    a: "Sim. O pack foi testado em engines pagas e gratuitas. O diferencial é o prompt, não a assinatura de R$ 200/mês.",
+    a: "Sim. O pack foi testado em plataformas pagas e gratuitas. O diferencial é o prompt, não a assinatura de R$ 200/mês.",
   },
   {
     q: "E se o rosto ainda variar?",
@@ -129,10 +129,6 @@ export const FAQS = [
   {
     q: "Posso usar comercialmente?",
     a: "Sim. Licença comercial inclusa. Venda o conteúdo, use em cliente, rode anúncio. Atualizações futuras entram sem custo.",
-  },
-  {
-    q: "É PDF?",
-    a: "Não. É um app web vivo: favoritos, 8 Personagens, Prompt Genie e Planejador de 30 dias. Abre no celular.",
   },
   {
     q: "Quanto tempo até o primeiro post?",
