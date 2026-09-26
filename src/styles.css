@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f5f2ee;
+  --color-surface: #fffcf8;
+  --color-fg: #121018;
+  --color-muted: #6b6575;
+  --color-primary: #6d28d9;
+  --color-primary-fg: #faf8ff;
+  --color-ink: #121018;
+  --color-ink-fg: #f6f3ee;
+  --color-gold: #b8892c;
+  --color-ok: #0f766e;
+  --color-danger: #be123c;
+  --color-border: #e6e0d6;
+  --color-line: #ddd6cc;
+  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+  --aspect-portrait: 3 / 4;
+  --shadow-card:
+    0 0 0 1px rgba(18, 16, 24, 0.06),
+    0 1px 2px -1px rgba(18, 16, 24, 0.06),
+    0 8px 24px -8px rgba(18, 16, 24, 0.08);
+  --shadow-lift:
+    0 0 0 1px rgba(18, 16, 24, 0.08),
+    0 12px 32px -12px rgba(109, 40, 217, 0.28);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    line-height: 1.55;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-serif);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  img.shot {
+    outline: 1px solid rgba(18, 16, 24, 0.1);
+    outline-offset: -1px;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-primary) 22%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-track {
+  animation: ticker 28s linear infinite;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.85);
+  }
+}
+
+.live-dot {
+  animation: pulse-dot 1.6s ease-in-out infinite;
+}

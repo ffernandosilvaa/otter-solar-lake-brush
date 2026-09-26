@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "FORBIDDEN PROMPTS",
+      "hasCanvas": false,
+      "bodyTextLen": 7840,
+      "bodyTextHash": "1e24a8e2c5ba32e80565d36fdad7f9ce6123383b7d76655b8c595b1fb62a1b27",
+      "bodyTextPrefix": "Lançamento · 88% off · restam 47 acessos encerra em 17:31:52 Mar",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "FORBIDDEN PROMPTS",
+      "hasCanvas": false,
+      "bodyTextLen": 7882,
+      "bodyTextHash": "ac2bfb82b3a9d1779f9f2dd8906a1cf02114d88efd53df0a3f1d498370e4f4e6",
+      "bodyTextPrefix": "Lançamento · 88% off · restam 47 acessos encerra em 17:31:50 Mar",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text replaced (similar length, page start changed)",
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}
