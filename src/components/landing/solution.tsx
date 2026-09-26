@@ -10,7 +10,7 @@ export function Solution() {
           O que entra hoje
         </p>
         <h2 className="mt-3 text-center font-serif text-3xl sm:text-5xl">
-          Tudo que falta entre você e um influenciador que cobra.
+          Tudo o que falta entre você e imagens que ninguém percebe que são IA.
         </h2>
         <ul className="mt-10 space-y-3">
           {BENEFITS.map((b) => (
