@@ -28,7 +28,7 @@ export function Genie() {
     <section className="bg-ink px-4 py-20 text-ink-fg">
       <div className="mx-auto max-w-4xl">
         <p className="text-center text-xs font-semibold tracking-[0.2em] text-gold uppercase">
-          Prompt Genie · um clique
+          PromptLab · um clique
         </p>
         <h2 className="mt-3 text-center font-serif text-3xl sm:text-5xl">
           Escolha a categoria. Copie o stack. Cole na IA.
