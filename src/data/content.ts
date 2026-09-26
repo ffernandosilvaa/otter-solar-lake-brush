@@ -8,7 +8,7 @@ export const PRICE = {
 export const PROBLEMS = [
   {
     title: "Rosto diferente a cada geração",
-    text: "Impossível construir um influenciador crível. Essa é a dor nº 1 do nicho — e o motivo de 9 em 10 contas morrerem no mês 1.",
+    text: "Cada geração parece uma pessoa diferente? Seu rosto perde identidade e consistência.",
   },
   {
     title: "Cara de plástico que qualquer um aponta",
@@ -16,25 +16,25 @@ export const PROBLEMS = [
   },
   {
     title: "Crédito queimado em ferramenta cara",
-    text: "Midjourney, Leonardo, Runway. Você pagou a Ferrari e dirigiu sem mapa. O resultado: lixo e fatura.",
+    text: "Cada tentativa errada custa créditos. E no fim, você continua sem a foto que queria.",
   },
   {
     title: "Prompt genérico = imagem genérica",
-    text: "O que está no YouTube já foi usado 40 mil vezes. Zero diferenciação. Zero venda.",
+    text: "Quer uma foto única? Pare de usar comandos que todo mundo usa.",
   },
   {
     title: "Horas de tentativa e erro",
-    text: "Pastas cheias de gerações inutilizáveis. Momentum morto. Você desiste — e o concorrente que comprou o pack certo posta amanhã.",
+    text: "Menos tentativa e erro. Mais resultado na primeira geração.",
   },
   {
     title: "Medo de mostrar o próprio rosto",
-    text: "Você quer o dinheiro do criador sem virar o produto. Falta um rosto que trabalhe no seu lugar, 24h.",
+    text: "Transforme seu rosto em fotos incríveis sem perder sua identidade.",
   },
 ];
 
 export const BENEFITS = [
   "400 prompts engenheirados — copia, cola, gera. Sem página em branco.",
-  "O mesmo rosto em 98% das gerações. Influenciador reconhecível, não um extra aleatório.",
+  "O mesmo rosto em 99% das gerações. Influenciador reconhecível, não um extra aleatório.",
   "Pele, luz e microexpressão que passam por foto real — inclusive em IA gratuita.",
   "Prompts de vídeo cinematográfico prontos para Reel, TikTok e UGC pago.",
   "Prompt Genie: um clique e o stack inteiro (identidade + pose + luz) é escrito pra você.",
