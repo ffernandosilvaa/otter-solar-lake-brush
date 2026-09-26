@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
-function remaining() {
-  const now = new Date();
-  const end = new Date(now);
-  end.setHours(23, 59, 59, 999);
-  const ms = Math.max(0, end.getTime() - now.getTime());
+const COUNTDOWN_MINUTES = 14;
+const DURATION_MS = COUNTDOWN_MINUTES * 60_000;
+
+function remaining(endAt: number) {
+  const ms = Math.max(0, endAt - Date.now());
   const h = Math.floor(ms / 3_600_000);
   const m = Math.floor((ms % 3_600_000) / 60_000);
   const s = Math.floor((ms % 60_000) / 1000);
@@ -12,12 +12,13 @@ function remaining() {
 }
 
 export function useCountdown() {
-  const [t, setT] = useState({ h: 0, m: 0, s: 0 });
+  const [endAt] = useState(() => Date.now() + DURATION_MS);
+  const [t, setT] = useState(() => remaining(endAt));
   useEffect(() => {
-    setT(remaining());
-    const id = window.setInterval(() => setT(remaining()), 1000);
+    setT(remaining(endAt));
+    const id = window.setInterval(() => setT(remaining(endAt)), 1000);
     return () => window.clearInterval(id);
-  }, []);
+  }, [endAt]);
   return t;
 }
 
