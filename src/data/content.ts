@@ -1,6 +1,6 @@
 export const PRICE = {
-  full: 166,58,
-  now: 19,99,
+  full: 166.58,
+  now: 19.99,
   offPct: 88,
   seats: 47,
 };
