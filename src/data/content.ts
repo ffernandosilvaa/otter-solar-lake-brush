@@ -45,18 +45,18 @@ export const BENEFITS = [
 export const STEPS = [
   {
     n: "01",
-    title: "Abra o Engine",
-    text: "O link cai no e-mail no segundo do pagamento. App web. Sem instalar. Celular ou computador.",
+    title: "Abra uma IA",
+    text: "Use até mesmo os planos gratuítos (ChatGPT, Gemini, Dola...).",
   },
   {
     n: "02",
     title: "Trave um Personagem",
-    text: "Escolha 1 dos 8 (ou suba uma selfie). Todo prompt passa a orbitar o DNA dela. Sem ideia? “Surpreenda-me”.",
+    text: "Escolha 1 dos 400 prompts que chegarão em seu e-mail.",
   },
   {
     n: "03",
-    title: "Gere, poste, cobre",
-    text: "Cole na IA. Publique. O Planejador já deixa o shot de amanhã pronto — inclusive os dias de paywall.",
+    title: "Gere, poste, surpreenda",
+    text: "Faça parecer impossível distinguir do real.",
   },
 ];
 
