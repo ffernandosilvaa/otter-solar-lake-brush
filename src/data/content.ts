@@ -64,12 +64,12 @@ export const PILLARS = [
   {
     kicker: "Pilar 1 · Consistência",
     title: "O mesmo rosto. Toda vez.",
-    text: "98% vs ~10% de um prompt solto. Sem consistência não existe marca. Sem marca não existe preço.",
+    text: "Chega de rostos diferentes a cada geração. Mantenha sua identidade e crie fotos consistentes, profissionais e realistas.",
   },
   {
     kicker: "Pilar 2 · Realismo",
     title: "Ninguém pergunta se é IA.",
-    text: "Textura de pele, luz dura, poro, suor, tecido. O tipo de detalhe que faz o scroll parar — e o cartão sair.",
+    text: "Textura de pele, luz dura, poro, suor, tecido...",
   },
   {
     kicker: "Pilar 3 · Caixa",
