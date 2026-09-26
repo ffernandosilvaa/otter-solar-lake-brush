@@ -8,15 +8,15 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-line" />
       <div className="mx-auto max-w-3xl text-center">
         <p className="mb-5 text-xs font-semibold tracking-[0.22em] text-primary uppercase">
-          Forbidden Prompts · Engine de influenciador
+          PromptLab · O prompt certo para fotos reais.
         </p>
         <h1 className="font-serif text-4xl font-medium text-fg sm:text-6xl">
-          Pare de gerar lixo.
-          <span className="mt-2 block italic text-primary">Gere um rosto que vende.</span>
+          Chega de imagens falsas.
+          <span className="mt-2 block italic text-primary">Gere fotos indistinguíveis da realidade.</span>
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-lg text-muted">
-          400 prompts engenheirados + DNA de Personagem + o Genie que escreve o shot em um clique.
-          Mesma cara. Pele real. Conteúdo pronto pra PIX — inclusive em IA gratuita.
+          400 prompts engenheirados + DNA de Personagem + copie e cole os prompts.
+          Mesma cara. Pele real. - inclusive em IA gratuita.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm">
           <span className="rounded-full bg-surface px-3 py-1.5 text-muted shadow-card">
