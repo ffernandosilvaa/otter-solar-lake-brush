@@ -12,7 +12,7 @@ export function Compare() {
     <section className="bg-ink px-4 py-20 text-ink-fg">
       <div className="mx-auto max-w-5xl">
         <h2 className="text-center font-serif text-3xl sm:text-5xl">
-          Prompt genérico… ou prompt feito para vender.
+          Prompt genérico… ou prompt feito para você?
         </h2>
         <div className="mt-10 overflow-x-auto rounded-xl shadow-card">
           <table className="w-full min-w-lg border-collapse text-left text-sm">
