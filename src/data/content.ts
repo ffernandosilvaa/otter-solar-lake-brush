@@ -199,49 +199,49 @@ export const GENIE_STACKS: Record<
 > = {
   "Retrato base & rosto consistente": {
     identity:
-      "Mulher mediterrânea de 29 anos, rosto oval com mandíbula levemente quadrada, pele oliva quente, olhos amêndoa castanho-escuros, sobrancelhas densas naturais. Adulta inconfundível. O EXATO mesmo rosto da imagem de referência.",
+      "Mulher mediterrânea de 29 anos, rosto oval com mandíbula levemente quadrada, pele oliva quente, olhos amêndoa castanho-escuros, sobrancelhas densas naturais. Adulta inconfundível...",
     wardrobe:
-      "Camisa de linho cru aberta no colarinho, brinco mínimo, cabelo solto com volume real. Sem maquiagem pesada.",
+      "Camisa de linho cru aberta no colarinho, brinco mínimo, cabelo solto com volume real. Sem maquiagem pesada...",
     light:
-      "Close de ombros pra cima, 85mm, luz de janela lateral, catchlight único, pele com poro visível, zero smoothing.",
+      "Close de ombros pra cima, 85mm, luz de janela lateral, catchlight único, pele com poro visível, zero smoothing...",
   },
   "Looks, moda & outfits": {
     identity:
-      "O mesmo rosto do Personagem selecionado. Sem deriva de idade, etnia ou estrutura óssea. Continuidade absoluta.",
+      "O mesmo rosto do Personagem selecionado. Sem deriva de idade, etnia ou estrutura óssea. Continuidade absoluta...",
     wardrobe:
-      "Vestido preto curto de alça, salto na mão, tornozelos cruzados no balcão, caneca nas duas mãos, riso fora de quadro.",
+      "Vestido preto curto de alça, salto na mão, tornozelos cruzados no balcão, caneca nas duas mãos, riso fora de quadro...",
     light:
-      "Corpo inteiro, câmera na altura do joelho, contra-luz quente de fim de tarde, sombra azul fria no chão.",
+      "Corpo inteiro, câmera na altura do joelho, contra-luz quente de fim de tarde, sombra azul fria no chão...",
   },
   "Cenários & locações": {
-    identity: "Mesmo DNA facial. Cabelo com vento real, pele com brilho de sol, sem pele plástica.",
-    wardrobe: "Slip dress branco, bolsa de palha, óculos escuros no topo da cabeça, pé descalço na pedra.",
-    light: "Villa à beira-mar, hora dourada, flare controlado, profundidade rasa, filme 35mm.",
+    identity: "Mesmo DNA facial. Cabelo com vento real, pele com brilho de sol, sem pele plástica...",
+    wardrobe: "Slip dress branco, bolsa de palha, óculos escuros no topo da cabeça, pé descalço na pedra...",
+    light: "Villa à beira-mar, hora dourada, flare controlado, profundidade rasa, filme 35mm...",
   },
   "UGC: fala pra câmera": {
-    identity: "Mesmo Personagem, fala para a lente como quem grava story. Microexpressão viva.",
-    wardrobe: "Regata off-white, fone na mão, bancada de produto à frente, caos organizado de criadora.",
-    light: "iPhone frontal, luz de janela, leve grain, enquadramento um pouco torto de propósito.",
+    identity: "Mesmo Personagem, fala para a lente como quem grava story. Microexpressão viva...",
+    wardrobe: "Regata off-white, fone na mão, bancada de produto à frente, caos organizado de criadora...",
+    light: "iPhone frontal, luz de janela, leve grain, enquadramento um pouco torto de propósito...",
   },
   "Produto real (afiliado)": {
-    identity: "Mesmo rosto. Olhar para o produto, não para a câmera. Credibilidade de review.",
-    wardrobe: "Roupão de hotel, toalha no cabelo, sérum na ponta dos dedos, espelho embaçado.",
-    light: "Banheiro com luz fria + lâmpada quente. Close da mão + rosto no reflexo.",
+    identity: "Mesmo rosto. Olhar para o produto, não para a câmera. Credibilidade de review...",
+    wardrobe: "Roupão de hotel, toalha no cabelo, sérum na ponta dos dedos, espelho embaçado...",
+    light: "Banheiro com luz fria + lâmpada quente. Close da mão + rosto no reflexo...",
   },
   "Fitness & health": {
-    identity: "Mesmo Personagem, pele suada de treino real, veias e textura, zero pele de CGI.",
-    wardrobe: "Maiô verde musgo molhado, cabelo preso bagunçado, gotas escorrendo no ombro.",
-    light: "Sol duro de piscina, alto contraste, splash congelado, 1/1000s.",
+    identity: "Mesmo Personagem, pele suada de treino real, veias e textura, zero pele de CGI...",
+    wardrobe: "Maiô verde musgo molhado, cabelo preso bagunçado, gotas escorrendo no ombro...",
+    light: "Sol duro de piscina, alto contraste, splash congelado, 1/1000s...",
   },
   "Vídeos cinematográficos": {
-    identity: "Mesmo rosto em movimento. Sem morphing entre frames. Continuidade de orelha, nariz, dente.",
-    wardrobe: "Camisa branca aberta, café na mesa de calçada, relógio fino, cidade ao fundo desfocado.",
-    light: "Travelling lento, anamorphic, hora mágica, grain de cinema, respiração visível.",
+    identity: "Mesmo rosto em movimento. Sem morphing entre frames. Continuidade de orelha, nariz, dente...",
+    wardrobe: "Camisa branca aberta, café na mesa de calçada, relógio fino, cidade ao fundo desfocado...",
+    light: "Travelling lento, anamorphic, hora mágica, grain de cinema, respiração visível...",
   },
   "Reels & ganchos virais": {
-    identity: "Mesmo Personagem. Primeiro frame precisa prender em 0,3s. Expressão de “você precisa ver isso”.",
-    wardrobe: "Look de street, jaqueta no ombro, walk-and-talk, texto na mão do celular.",
-    light: "Vertical 9:16, punch-in no meio da frase, corte no beat, luz de fim de tarde.",
+    identity: "Mesmo Personagem. Primeiro frame precisa prender em 0,3s. Expressão de “você precisa ver isso”...",
+    wardrobe: "Look de street, jaqueta no ombro, walk-and-talk, texto na mão do celular...",
+    light: "Vertical 9:16, punch-in no meio da frase, corte no beat, luz de fim de tarde...",
   },
 };
 
