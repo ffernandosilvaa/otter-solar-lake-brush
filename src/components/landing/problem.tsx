@@ -6,7 +6,7 @@ export function Problem() {
     <section className="bg-ink px-4 py-20 text-ink-fg">
       <div className="mx-auto max-w-5xl">
         <p className="text-center text-xs font-semibold tracking-[0.2em] text-gold uppercase">
-          A conta que ninguém fecha
+          O que não te contam
         </p>
         <h2 className="mx-auto mt-3 max-w-2xl text-center font-serif text-3xl sm:text-5xl">
           O problema nunca foi a ferramenta. Foi o prompt.
