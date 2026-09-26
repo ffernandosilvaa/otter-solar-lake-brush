@@ -88,7 +88,7 @@ export const FOR_YOU = [
 ];
 
 export const COMPARE = [
-  { label: "Realismo percebido", a: "IA óbvia · 15%", b: "~40%", c: "95%" },
+  { label: "Realismo percebido", a: "IA óbvia · 15%", b: "~40%", c: "99%" },
   { label: "Mesmo rosto toda geração", a: false, b: "às vezes", c: true },
   { label: "Vídeo cinematográfico", a: false, b: false, c: true },
   { label: "9 categorias prontas", a: false, b: false, c: true },
