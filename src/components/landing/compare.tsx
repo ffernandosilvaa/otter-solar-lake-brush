@@ -21,7 +21,7 @@ export function Compare() {
                 <th className="px-4 py-4 font-medium"> </th>
                 <th className="px-4 py-4 font-medium text-ink-fg/60">ChatGPT solto</th>
                 <th className="px-4 py-4 font-medium text-ink-fg/60">Prompts grátis</th>
-                <th className="bg-primary px-4 py-4 font-semibold text-primary-fg">Forbidden</th>
+                <th className="bg-primary px-4 py-4 font-semibold text-primary-fg">PromptLab</th>
               </tr>
             </thead>
             <tbody>
